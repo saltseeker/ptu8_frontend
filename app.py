@@ -14,6 +14,10 @@ def destytojas():
 def studentai():
     return render_template("studentai.html")
 
+@app.route('/studentai/kestutis/')
+def kestutis():
+    return render_template("kestutis.html")
+
 
 if __name__ == "__main__":
     app.run(debug=True)
