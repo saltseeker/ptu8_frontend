@@ -1,20 +1,27 @@
 html {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    color: #0f0d0d;
-    background-color: rgb(255, 0, 115);
+    color: #38b361;
+    background-image: url('space.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
 }
-a {
-    color: rgb(208, 255, 0);
+h1  {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-h1, h2, h3, h4 {
-    color: #b30c0c;
-    background-color: rgb(43, 255, 0);
-    border: 1px solid black;
-    border-bottom: 4px solid rgb(14, 1, 1);
-    padding: 8px 16px;
+h2  {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-hr {
-    border: none;
-    border-bottom: 2px solid rgba(127, 127, 127, 0.5);
+h3  {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
